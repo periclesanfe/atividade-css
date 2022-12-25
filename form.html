@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        function enviado() 
+        {
+            alert('Formulario Enviado, da 10 ai prof vlw');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="./copy_of_IFALvertical.png" alt="" width="100" id="image">
+        <p><strong>Inscrição no Estágio</strong></p>
+    </header>
+    <div id="form">
+        <form>
+            <div id="retangulo">
+                <div class="normal">
+                    <p><strong>Nome:</strong></p>
+                    <input type="text" placeholder="Nome Completo" id="input">
+                </div>
+                <div class="normal">
+                    <p><strong>Email:</strong></p>
+                    <input type="email" placeholder="text@gmail.com" id="input">
+                </div>
+                <div class="normal">
+                    <p><strong>Telefone:</strong></p>
+                    <input type="number" placeholder="82901234567" id="input">
+                </div>
+                <div class="normal">
+                    <p><strong>Área de Interesse</strong></p>
+                    <select id="input">
+                        <option value="" hidden></option>
+                        <option value="">Web Developer</option>
+                    </select>
+                </div>
+                <div class="sexo">
+                    <p><strong>Sexo:</strong></p>
+                    <input type="radio">Masculino
+                    <input type="radio">Feminino
+                    <input type="radio">Outro<br>
+                </div>
+                <div class="skill">
+                    <p><strong>Skills:</strong></p>
+                    <input type="checkbox">HTML<br>
+                    <input type="checkbox">CSS<br>
+                    <input type="checkbox">JavaScript<br>
+                    <input type="checkbox">BootStrap<br>
+                </div>
+                <div class="comentario">
+                    <p><strong>Comentários:</strong></p>
+                    <input type="text" class="caixaComentario">
+                </div>
+                <div class="button">
+                    <button type="submit" onclick="enviado()">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
